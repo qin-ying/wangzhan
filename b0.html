@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试</title>
+    <style type="text/css">
+        *{
+            margin: 0; /*将所有的元素边距都设置为0*/
+        }
+        #box {/*设置父元素，消除子元素浮动的影响*/
+            width: 750px;
+            overflow: auto;/*让父元素自动调整高度，包含子元素*/
+            margin: auto; /*让父元素自动设置边距，左右边距相等，即可达到居中效果，水平方向有效。*/
+        }
+        .item {
+            width: 210px; 
+            height: 136px;
+            float:left;/*浮动*/
+            margin: 20px;
+        }
+
+        .p1 { color:red ;} /*文字颜色*/
+        .p2 { font-family: "华文中宋";}/*字体类型*/
+        .p3 { font-size: 26px; }/*文字大小*/
+        .p4 { font-weight: bold; }/*文字加粗*/
+        .p5 {font-style: italic; }/*文字倾斜*/
+        .p6 { text-indent: 60px; }/*首行缩进*/
+        .p7 { text-align: center; } /*水平对齐方式*/
+        .p8 { line-height: 100px; } /*行高*/
+        .p9 { height: 100px; background-color: gray; line-height: 1eepx;line-height: 100px;}
+        .p10 { text-decoration: underline; } /*文本修饰*/
+    </style>
+</head>
+
+<body>
+    <form action="http://www.baidu.com">
+        <table width="600px" border="1px" cellspacing="0">
+            <tbody>
+                <tr height="40px">
+                    <td rowspan="4" align="center" style="color: brown;">总体信息</td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr height="40px">
+                    <td align="right" style="background-color: darkgreen;">用户名： </td>
+                    <td>
+                        <input type="text" name="loginname">
+                    </td>
+                </tr>
+                <tr height="40px">
+                    <td align="right">密码： </td>
+                    <td>
+                        <input type="password" name="pwd">
+                    </td>
+                </tr>
+                <tr height="40px">
+                    <td colspan="2" align="center">
+                        <input type="submit" value="提交">
+                        <input type="reset" value="重置">
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <form action="http://www.baidu.com" method="get">
+    <!--1.get请求通常表示获取数据2.post请求通常表示提交数据3.get请求发送的数据都写在地址栏上，用户可见4.post请求发送的数据用户不可见5.get请求不能提交大量数据，但post可以，因此不要混用-->
+        <p>
+            <input type="text" name="login">
+        </p>
+        <p>
+            <input type="password" name="pass">
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+    
+    <ul>
+        <li class="p1">1 "双+-"过去将近一个月,各大电商、物流平台和物</1i>
+        <li class="p2">2其中物流平台和物流企业的成绩单直接关乎消费者享5</1i>
+        <li class="p3">3 国家邮政局监测信息显示, 11月11日至16日业务高峰</li>
+        <li class="p4">4 截至21日20时,除边远地区外,主要寄递企业收的</li>
+        <li class="p5">5来自物流平台的统计数据同样具有说服力:今年天猫"</li>
+        <li class="p6">6 2009年天猫"双十一"当日物流订单为26万, 2010年这</li>
+        <li class="p7">7单点运行的传统物流体系已不堪重负,爆仓时有发生.</li>
+        <li class="p8">8 2013年5月, 阿里巴巴联合"三通一达等企业成t菜</li>
+        <li class="p9">9着手打造智能物流骨干网,显著的改变和提升由此产5</li>
+        <li class="p10">x10 2013年天猫"双+-E流iѣi1.522, 此Е</li>
+    </ul>
+
+    <div id="box">
+        <div class="item" style="background: url(./img/1.webp); "></div>
+        <div class="item" style="background: url(./img/2.webp); "></div>
+        <div class="item" style="background: url(./img/3.webp); "></div>
+    </div>
+    
+</body>
+</html>

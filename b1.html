@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>科创模具网</title>
+        <link rel="shortcut icon" href="/images/logo/logo.png" type="image/x-icon">
+        <!-- element-ui -->
+        <link href="https://cdn.bootcdn.net/ajax/libs/element-ui/2.13.1/theme-chalk/index.css" rel="stylesheet">
+        <!-- viewer -->
+        <link href="https://cdn.bootcdn.net/ajax/libs/viewerjs/1.5.0/viewer.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./vue/mouldHome/css/index.css">
+        <link rel="stylesheet" href="./vue/mouldHome/css/home-header.css">
+        <link rel="stylesheet" href="./vue/mouldHome/css/switch-jump.css">
+        <link rel="stylesheet" href="./vue/mouldHome/css/online-mouldForum.css">
+        <link rel="stylesheet" href="./vue/mouldHome/css/home-footer.css">
+        <script src="//hm.baidu.com/hm.js?3c09bcdc17e446973a801344d4d1de80"></script><script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?3c09bcdc17e446973a801344d4d1de80";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="home">
+            <section class="el-container is-vertical">
+                <header class="el-header" style="height: 60px;">
+                    <div class="header">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="./img/标签1.png" alt="">
+                            </a>
+                        </div> 
+                        <div class="fr">
+                            <div class="jump-buttons">
+                                <a href="javascript:;">首页</a> 
+                                <a href="/userCenter/seller/go-new-index.html">会员中心</a> 
+                                <a href="/blog/index.html" target="_blank">模具博客</a> 
+                                <a href="http://www.mouldbbs.com" target="_blank">模具论坛</a></div> 
+                                <div class="user">
+                                    <button type="button" class="el-button el-button--default el-button--medium is-round">
+                                        <!---->
+                                        <i class="el-icon-user">
+                                            
+                                        </i>
+                                        <span>登录</span>
+                                    </button> 
+                                    <a href="/register.html" target="_blank">注册</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header> 
+                    <main class="el-main">
+                        <div class="bg-box">
+                            <img src="./vue/mouldHome/images/banner.png" alt=""> 
+                            <div class="description">
+                                <p>解决模具加工过程管理问题</p> 
+                                <h1>中模云供应链平台</h1> 
+                                <p>七大核心功能，十六个重点模块，全程数据跟踪</p> 
+                                <p>跨平台多客户端支持，超长历史追溯</p>
+                            </div>
+                        </div> 
+                        <div class="switch-jump">
+                            <div class="platform-jump">
+                                <div class="el-row is-justify-center el-row--flex" style="margin-left: -23px; margin-right: -23px;">
+                                    <div class="el-col el-col-8" style="padding-left: 23px; padding-right: 23px;">
+                                        <h2>中模网</h2> 
+                                        <span>企业供求交流平台</span> 
+                                        <p>中模网是模具行业的门户网站，全国首家，为企业提供了供求交流中心和专业的BBS论坛。</p> 
+                                        <button type="button" class="el-button el-button--default is-round">
+                                            <!----><!---->
+                                            <span>立即查看</span>
+                                        </button>
+                                    </div> 
+                                    <div class="el-col el-col-8" style="padding-left: 23px; padding-right: 23px;">
+                                        <h2>中模云供应链平台</h2> 
+                                        <span>解决模具加工过程管理问题</span> 
+                                        <p>制造型企业的供应链管理系统，提供了工艺管理、工艺执行、台账仓库、仓库管理等企业核心场景功能。</p> 
+                                        <button type="button" class="el-button el-button--default is-round"><!----><!---->
+                                            <span>立即查看</span>
+                                        </button>
+                                    </div> 
+                                    <div class="el-col el-col-8" style="padding-left: 23px; padding-right: 23px;">
+                                        <h2>中模B2B平台</h2> 
+                                        <span>模具行业在线交易平台</span> 
+                                        <p>客户可在平台寻找机加工、热处理、原材料企业，进行在线下单。供应商接单后壳配合云供应链平台进行生产管理。</p> 
+                                        <button type="button" class="el-button el-button--default is-round"><!----><!---->
+                                            <span>立即查看</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </main>
+            </section>
+        </div>
+        <!-- 先引入 Vue -->
+        <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.js"></script>
+        <!-- element-ui 组件库 -->
+        <script src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.13.1/index.js"></script>
+        <!-- axios -->
+        <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.19.2/axios.min.js"></script>
+        <!-- 图片查看器 viewer -->
+        <script src="https://cdn.bootcdn.net/ajax/libs/viewerjs/1.5.0/viewer.min.js"></script>
+        <script src="./vue/mouldHome/utils/index.js"></script>
+        <!-- 组件 -->
+        <script src="./vue/mouldHome/components/home-header.js"></script>
+        <script src="./vue/mouldHome/components/platform-jump.js"></script>
+        <script src="./vue/mouldHome/components/platform-switch.js"></script>
+        <script src="./vue/mouldHome/components/online-platform.js"></script>
+        <script src="./vue/mouldHome/components/mould-forum.js"></script>
+        <script src="./vue/mouldHome/components/home-footer.js"></script>
+    
+        <script>
+            new Vue({
+                el: "#home",
+                data: {},
+            });
+        </script>
+    
+    
+        <div id="qb-sougou-search" style="display: none; opacity: 0; left: 1074px; top: 1882.44px;">
+            <p>搜索</p>
+            <p class="last-btn">复制</p>
+            <iframe src=""></iframe>
+        </div>
+        <div role="alert" class="el-message" style="display: none; z-index: 2002;">
+            <i class=""></i>
+            <p class="el-message__content"></p>
+            <!---->
+        </div>
+    </body>
+</html>

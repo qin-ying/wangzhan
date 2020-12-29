@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科创模具网</title>
+</head>    
+<link rel="stylesheet" href="./字体图标/font_b4fl8ay5xm/iconfont.css">
+<style>
+    html,body{height: 100%;width: 100%;}
+    /* .f{
+        clear：left；清除浮动
+        list-style:none;去除列表前的点
+        } */
+    *{
+        /*将所有的元素边距都设置为0*/
+        margin: 0;
+    }
+    #home{
+        /* 背景图 */
+        background-image: url(./img/背景1.png);
+        background-position: center;
+        /* 自动调整高度 */
+        /* overflow: auto; */
+        height: 100%;
+        width: 100%;
+        min-width: 1170px;
+        }
+    .header{
+        overflow: auto;
+        width: 80%;
+        padding-top: 50px;
+        padding-left: 68px;
+        min-width: 1170px;
+    }
+    .logo{overflow: auto;}
+    .logo-1{float: left;}
+    .logo-2{float: left;}
+    .logo-2-1{
+        background-color: #ffff00;
+        font-size: 20px;
+        padding: 4px;
+    }
+    .logo-2-2{
+        color: white;
+        /* padding: 1px;
+        font-size: px; */
+    }
+    .fr{
+        /* 绝对定位 */
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        /* 自我偏移 */
+        transform: translate(-50%,-50%);
+        width: 100%;
+        height: 30px;
+        margin: auto;
+    }
+    .jump-buttons{
+        text-align: center;
+    }
+    .jump-buttons a{
+        color: white;
+        /* 去除下划线 */
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .jump-buttons a:hover{
+        color: red;
+    }
+    .jump-buttons span a{
+        color: black;
+        background-color: #ed7d31;
+        font-size: 20px;
+        padding: 2px;
+    }
+    .jump-buttons span a:hover{
+        color: white;
+    }
+    .user{
+        float: right;
+        transform: translate(0%,-80%);
+        margin-left: 116px;
+        margin-right: 68px;
+    }
+    .user button{
+        background-color: black;
+        color: white;
+        margin-right: 30px;
+        padding: 10px 20px;
+        /* 边框半径 */
+        border-radius: 20px;
+        border-color:#dcdfe6;
+        font-size: 16px;
+        line-height: 1;
+        cursor: pointer;
+        text-align: center;
+    }
+    .user button:hover{
+        color: red;
+    }
+    .user a{
+        color: white;
+        /* 去除下划线 */
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .user a:hover{
+        color: red;
+    }
+    .description{
+        /* 绝对定位，左上角为起点位置 */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        /* 位移，元素中心位置 */
+        transform:translate(-50%,-50%);
+        margin-top: -60px;
+        overflow: auto;
+    }
+    .description-1{
+        background-color: #00b0f0;
+        width: 600px;
+        height: 130px;
+        text-align: center;
+        /* 水平居中 */
+        margin: auto;
+        line-height: 62px;
+    }
+    /* 文字大小 */
+    .description-1 p{font-size: 22px;}
+    .description-1 h1{font-size: 40px;}
+    .description-2{
+        color: white;
+        width: 600px;
+        height: 100px;
+        text-align: center;
+        /* 水平居中 */
+        margin: auto;
+        line-height: 48px;
+        font-size: 22px;
+    }
+    .platform-jump{
+        overflow: auto;
+        position: absolute;
+        left: 50%;
+        top: 76%;
+        transform:translate(-50%,-50%);
+        width: 1104px;
+        height: 160px;
+        margin: auto;
+    }
+    .platform-jump-1{
+        float: left;
+        width: 260px;
+        height: 140px;
+        background-color: #4472c4;
+        /* 水平对齐 */
+        text-align: center;
+        /* 边框半径 */
+        border-radius: 20px;
+        /* 边距 */
+        margin: 6px;
+        /* 行高 */
+        line-height: 34px;
+        /* 填充 */
+        padding: 4px 2px;
+        /* 鼠标划入变手 */
+        cursor: pointer;
+    }
+    .platform-jump-1:hover{
+        /* 划入变色 */
+        background-color: rgb(80, 138, 224);
+    }
+    .platform-jump-1 h2{font-size: 22px;}
+    .platform-jump-1 p{font-size: 18px;}
+</style>
+<body>
+    <div id="home">
+        <!-- 上边部分 -->
+        <div class="header">
+            <!-- 左上角标志 -->
+            <div class="logo">
+                <div class="logo-1">
+                    <img src="./img/左上标签.png" alt="">
+                </div>
+                <div class="logo-2">
+                    <div class="logo-2-1">
+                        科创模具网
+                    </div>
+                    <div class="logo-2-2">
+                        <!-- <a href="https://www.mould.cn/"> -->
+                            www.mould.cn
+                        <!-- </a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- 中上部分 -->
+            <div class="fr">
+                <div class="jump-buttons">
+                    <a href="" style="margin-right: 30px;">
+                        首页
+                    </a>
+                    <span style="margin-right: 30px;">
+                        <a href="">会员中心</a>
+                    </span>
+                    <span style="margin-right: 30px;">
+                        <a href="">检测中心</a>
+                    </span>
+                    <a href="https://www.mouldbbs.com/">
+                            模具论坛
+                    </a>
+                </div>
+                <div class="user">
+                    <a href="">
+                        <button>
+                            <span class="iconfont icon-denglu"></span>
+                            <span>登录</span>
+                        </button>
+                    </a>
+                    <a href="">注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 中间部分 -->
+        <div class="description">
+            <div class="description-1">
+                <p>模具设计、制造、营销和产业规划全产业链智慧平台</p>
+                <h1>科创模具智慧营销中心</h1>
+            </div>
+            <div class="description-2">
+                <p>七大核心功能，十六个重点模块，全程数据跟踪</p>
+                <p>跨平台多客户端支持，超长历史追溯</p>
+            </div>
+        </div>
+        <!-- 下边部分 -->
+        <div class="platform-jump">
+            <div class="platform-jump-1">
+                <h2 style="color: red;">服务平合</h2>
+                <p style="color: white;">提供模具智能化设计、生产过程管理、工艺技术支持、产品质量检测、智能试模和售后服务。</p>
+            </div>
+            <div class="platform-jump-1">
+                <h2 style="color: red;">云供应链平台</h2>
+                <p style="color: white;">提供市场云数据、云订单订立、交付、执行、台账、仓储、运输等核心功能，实现精准营销。</p>
+            </div>
+            <div class="platform-jump-1">
+                <h2 style="color: red;">模具B2B平台</h2>
+                <p style="color: white;">为核具供需双方设计现代化产品推介广告，收集用户雷求信息，拓展市场。</p>
+            </div>
+            <div class="platform-jump-1">
+                <h2 style="color: red;">模具B2B平台</h2>
+                <p style="color: white;">为模具企业提供深加工、联合创新、企业融资、新产品开发、新技术应用牵线搭桥。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
